@@ -1,2 +1,2 @@
-# A Simple Percentage Calculator since I'm not good in Math and this sort of things.
-<br>
+# A Simple Percentage Calculator since I'm not good in Math and <br> this sort of things.
+
