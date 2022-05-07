@@ -55,6 +55,7 @@ height: 100vh;
    letter-spacing: 3px;
    background-color: #218c74;
    font-family: 'Montserrat', sans-serif;
+   font-size: clamp(.5rem, 1vw, 2rem);
    
 }
 
@@ -92,6 +93,7 @@ input::-webkit-inner-spin-button {
     display: none;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
+    font-size: clamp(.5rem, 1vw, 2rem);
 
 }
 
