@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/override.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <title>Percentage Calculator 🖩</title>
+</head>
+<body>
+
+
+    <h1 id="main_title">Percentage Calculator </h1>
+
+    
+<!--     
+    <h2 id="sub_title">What is the</h2> 
+    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+   -->
+
+   <p id="result">            </p>
+
+  
+<div class="row">
+    <div class="col s12" id="sub_title"> What is 
+      <div class="input-field inline">
+        <input id="percent_input" type="tel" class="validate" maxlength="3" onkeypress='validate(event)'>          
+      </div>
+      <span id="percent_sign">%</span> of
+    </div>
+    <br>    
+    
+    <center>        
+        <input id="percent_input_amount" type="tel" class="validate" maxlength="12" > <span id="period"> .</span>
+        <br>
+        <br>
+        <br>
+        <a class="waves-effect waves-light btn-large" id="btn" ><i class="fa-solid fa-calculator"> Calculate</i></a>
+        <a class="waves-effect waves-light btn-large red" id="btn_reset" ><i class="fa-solid fa-arrow-rotate-left"> Reset</i></a>
+ 
+    </center>
+    
+</div>
+
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/cleave.min.js"></script>
+    <script src="/js/main.js"></script>
+    
+</body>
+</html>

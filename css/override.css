@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body{
+    /* background-color: #222f3e !important;; */
+background-image:url('/IMG/BG-modified.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+#main_title{
+    text-align: center;
+    font-size: clamp(2rem, 10vw, 5rem);
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px rgba(121, 127, 128, 1);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#sub_title, #period{
+  
+    text-align: center;
+    font-size: clamp(.5rem, 5vw, 3rem);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+#percent_input{
+    font-size: clamp(.5rem, 5vw, 3rem);
+    width: 90px;
+    text-align: right;
+    color: white;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#percent_input_amount{
+    
+    width: clamp(200px, 300px, 350px);   
+    align-self: center;
+    font-size: clamp(.5rem, 5vw, 3rem);
+    text-align: right;
+    color: white;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn{
+   letter-spacing: 3px;
+   background-color: #218c74;
+   font-family: 'Montserrat', sans-serif;
+   
+}
+
+#percent_sign{
+    color: #f44336;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#result{
+    text-align: center;
+    font-size: clamp(1rem, 6vw, 4rem);        
+    color: #ffffff;
+    font-weight: 400; 
+    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-shadow: 0px -1px 3px rgba(206,206,206,0.94);
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+
+/*
+  reset button */
+
+#btn_reset{
+    display: none;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*Input or Underline color*/
+
+input:focus, input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+  }
